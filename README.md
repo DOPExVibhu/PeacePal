@@ -12,6 +12,7 @@ A mental health chatbot using a Flask web application.
 Clone the repository and navigate to the directory.
 
 
-# Technologies used
+## Technologies used
+
 Frontend - HTML, CSS
 Backend - JavaScript, Flask, Pandas  
