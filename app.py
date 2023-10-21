@@ -6,7 +6,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-data = pd.read_csv(r"C:\Users\param\Downloads\chatbot_try2\chatbot\Mental_Health_FAQ.csv")
+data = pd.read_csv(r"Mental_Health_FAQ.csv")
 questions = data['Questions'].tolist()
 answers = data['Answers'].tolist()
 
