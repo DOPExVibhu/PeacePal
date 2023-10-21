@@ -7,14 +7,6 @@
 
 A mental health chatbot using a Flask web application.
 
-## Installation
-
-Clone the repository and navigate to the directory.
-
-
-## Technologies used
-
-Frontend - HTML, CSS
 
 Backend - JavaScript, Flask, Pandas  
 
@@ -44,35 +36,6 @@ Flask library installed. You can install it using pip install Flask.
 Pandas library installed. You can install it using pip install pandas.
 
 
-Clone the repository to your local machine.
-
-  git clone https://github.com/yourusername/mental-health-bot.git
-
-Navigate to the project directory.
-
-  cd mental-health-bot
-
-Create a virtual environment (optional but recommended).
-  
-  python -m venv venv
-
-Activate the virtual environment.
-
-For Windows:
-  
-  venv\Scripts\activate
-
-For macOS and Linux:
-  
-  source venv/bin/activate
-
-Install required packages.
-  
-  source venv/bin/activate
-
-Run the application.
-
-  python app.py
 
 The application will be accessible at http://localhost:5000 in your web browser.
 
