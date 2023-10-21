@@ -3,14 +3,6 @@
 ![1](https://github.com/DOPExVibhu/PeacePal/assets/104273406/0a5ce122-d468-447e-9431-52e6fd700902)
 
 
-# Mental Health Chatbot
-
-A mental health chatbot using a Flask web application.
-
-
-Backend - JavaScript, Flask, Pandas  
-
-
 ## Project Overview
 The PeacePal is a web-based application Mental Health Bot designed to provide support and information related to mental health. It incorporates HTML, CSS, JavaScript for the front-end, Flask for the back-end, and Pandas for data analysis. The bot offers a user-friendly interface for users to access mental health resources, self-assessment tools, and information about mental health topics.
 
@@ -37,7 +29,7 @@ Pandas library installed. You can install it using pip install pandas.
 
 
 
-The application will be accessible at http://localhost:5000 in your web browser.
+The application will be accessible at (http://127.0.0.1:5000/) in your web browser.
 
 ## Data Management
 To manage mental health resources, update the resources.csv file in the data directory. You can use any spreadsheet software to modify this CSV file.
