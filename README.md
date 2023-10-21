@@ -16,4 +16,4 @@ Clone the repository and navigate to the directory.
 
 Frontend - HTML, CSS
 
-#Backend - JavaScript, Flask, Pandas  
+Backend - JavaScript, Flask, Pandas  
