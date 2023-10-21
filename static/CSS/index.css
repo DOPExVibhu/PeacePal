@@ -1,0 +1,120 @@
+/* Chat container styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.chat-container {
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 50px 20px 0px 20px;
+    border: 1px solid #ded7d7;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.Logo {
+    text-align: center;
+    /* Center-align the logo */
+    margin-top: 20px;
+    /* Add some top margin for spacing */
+}
+
+h4 {
+    color: #C87496;
+    font-size: medium;
+    font-weight: 600;
+    padding: 0 0px 20px 0px;
+    text-align: center;
+    margin: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Chat message styles */
+.chat-message {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    clear: both;
+}
+
+.bot-message {
+    background: #24244C;
+    color: #C87496;
+    width: 25%;
+    text-align: center;
+}
+
+.user-message {
+    background: #24244C;
+    color: white;
+    float: right;
+}
+
+/* Input box and button styles */
+.chat-input {
+    width: 95%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+.send-button {
+    background: #C87496;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px 0 0 0;
+    display: flexbox;
+    overflow: hidden;
+
+}
+
+.send-button:hover {
+    background: transparent;
+    color: #C87496;
+    border: 2px solid #24244C;
+    transition: 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.refresh-button {
+    background: #C87496;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px 0 0 0;
+    display: flexbox;
+    overflow: hidden;
+}
+
+.refresh-button:hover {
+    background: transparent;
+    /* Set the background to transparent on hover */
+    color: #008CBA;
+    border: 2px solid #24244C;
+    transition: 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.chat-shadow {
+    width: 1300px;
+    border: 2px solid #008CBA;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 0 0px 20px 20px;
+}
+
+footer {
+    margin: 65px 0 0 0;
+    padding: 60px 0 43px 0;
+    text-align: center;
+    background-color: #24244C;
+    color: #C87496;
+}

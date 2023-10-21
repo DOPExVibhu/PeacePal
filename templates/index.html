@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>PeacePal</title>
+    <link rel="icon" type="image/x-icon" href="/static/Logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/CSS/index.css">
+</head>
+
+<body>
+    <div class="chat-container">
+        <div class="Logo" id="Logo">
+            <img src="/static/Logo.svg" alt="Logo">
+            <h4>Revolutionizing Mental Health!</h4>
+        </div>
+        <div class="chat-shadow">
+            <div class="chat-box" id="chat-box">
+                <div class="chat-message bot-message">Hello, how can I assist you today?</div>
+            </div>
+            <div class="chat-inside">
+                <input type="text" class="chat-input" id="user-input" placeholder="Tell us your thoughts.......">
+                <button class="send-button" onclick="sendMessage()">Send</button>
+                <!-- Removed the regenerateResponse button for now -->
+            </div>
+        </div>
+        <footer>
+            ©2023 PeacePal | All rights reserved | Terms and Conditions
+        </footer>
+    </div>
+
+    <script src="/static/JS/index.js"></script>
+</body>
+
+</html>
