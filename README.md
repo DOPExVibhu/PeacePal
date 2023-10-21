@@ -17,3 +17,71 @@ Clone the repository and navigate to the directory.
 Frontend - HTML, CSS
 
 Backend - JavaScript, Flask, Pandas  
+
+
+## Project Overview
+The PeacePal is a web-based application Mental Health Bot designed to provide support and information related to mental health. It incorporates HTML, CSS, JavaScript for the front-end, Flask for the back-end, and Pandas for data analysis. The bot offers a user-friendly interface for users to access mental health resources, self-assessment tools, and information about mental health topics.
+
+## Mental Health Bot
+
+Features
+User-friendly Interface: The bot provides a clean and intuitive user interface, making it easy for users to navigate and access information.
+
+Resource Directory: Users can search for mental health resources such as helplines, therapists, and support groups. This information is stored in a Pandas DataFrame and can be easily updated.
+
+Self-assessment: The bot includes self-assessment quizzes that users can take to evaluate their mental health. The results are displayed in a user-friendly format.
+
+Information Articles: Users can access articles and information about various mental health topics, which are displayed on the website.
+
+## Installation and Setup
+To set up the Mental Health Bot, follow these steps:
+
+## Prerequisites
+Python 3.x installed on your system.
+
+Flask library installed. You can install it using pip install Flask.
+
+Pandas library installed. You can install it using pip install pandas.
+
+
+Clone the repository to your local machine.
+
+  git clone https://github.com/yourusername/mental-health-bot.git
+
+Navigate to the project directory.
+
+  cd mental-health-bot
+
+Create a virtual environment (optional but recommended).
+  
+  python -m venv venv
+
+Activate the virtual environment.
+
+For Windows:
+  
+  venv\Scripts\activate
+
+For macOS and Linux:
+  
+  source venv/bin/activate
+
+Install required packages.
+  
+  source venv/bin/activate
+
+Run the application.
+
+  python app.py
+
+The application will be accessible at http://localhost:5000 in your web browser.
+
+## Data Management
+To manage mental health resources, update the resources.csv file in the data directory. You can use any spreadsheet software to modify this CSV file.
+
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+We thank the open-source community for their valuable contributions and resources that made this project possible.
