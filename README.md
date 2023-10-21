@@ -17,8 +17,6 @@ Self-assessment: The bot includes self-assessment quizzes that users can take to
 
 Information Articles: Users can access articles and information about various mental health topics, which are displayed on the website.
 
-## Installation and Setup
-To set up the Mental Health Bot, follow these steps:
 
 ## Prerequisites
 Python 3.x installed on your system.
