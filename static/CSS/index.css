@@ -38,9 +38,9 @@ h4 {
 }
 
 .bot-message {
-    background: #24244C;
-    color: #C87496;
-    width: 25%;
+    background: green;
+    color: white;
+    width: 55%;
     text-align: center;
 }
 
@@ -104,7 +104,7 @@ h4 {
 }
 
 .chat-shadow {
-    width: 1300px;
+    width: 1420px;
     border: 2px solid #008CBA;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
