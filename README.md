@@ -1,4 +1,4 @@
-# PeacePal(Mental Health CheckBot)
+# PeacePal(Mental Health ChatBot)
 
 ![1](https://github.com/DOPExVibhu/PeacePal/assets/104273406/0a5ce122-d468-447e-9431-52e6fd700902)
 
