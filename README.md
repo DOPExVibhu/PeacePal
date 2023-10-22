@@ -8,7 +8,7 @@ The PeacePal is a web-based application Mental Health Bot designed to provide su
 
 ## Mental Health Bot
 
-Features
+Feaatures
 User-friendly Interface: The bot provides a clean and intuitive user interface, making it easy for users to navigate and access information.
 
 Resource Directory: Users can search for mental health resources such as helplines, therapists, and support groups. This information is stored in a Pandas DataFrame and can be easily updated.
@@ -25,6 +25,7 @@ Flask library installed. You can install it using pip install Flask.
 
 Pandas library installed. You can install it using pip install pandas.
 
+Sci-kit learn installed . For the pre-trained model.
 
 
 The application will be accessible at (http://127.0.0.1:5000/) in your web browser.
